@@ -72,8 +72,9 @@ demolidor.dar_likes()
 listinha = [atlanta, vingadores, demolidor, tmep]
 minha_playlist = Playlist('fim de semana', listinha)
 
+print("*** GasperFlix ***\n"
+      "-- Playlist de filmes e séries --")
 for programa in minha_playlist:
     print(programa)
 
-print(f'Tamanho: {len(minha_playlist.listagem)}')
 
